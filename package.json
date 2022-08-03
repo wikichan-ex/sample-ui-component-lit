@@ -9,6 +9,7 @@
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc --watch",
+    "bundle": "tsc; rollup -c",
     "clean": "rimraf sample-lit-test.{d.ts,d.ts.map,js,js.map} test/sample-lit-test.{d.ts,d.ts.map,js,js.map} test/sample-lit-test_test.{d.ts,d.ts.map,js,js.map}",
     "lint": "npm run lint:lit-analyzer && npm run lint:eslint",
     "lint:eslint": "eslint 'src/**/*.ts'",

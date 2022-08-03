@@ -10,9 +10,9 @@ import resolve from '@rollup/plugin-node-resolve';
 import replace from '@rollup/plugin-replace';
 
 export default {
-  input: 'sample-lit-test.js',
+  input: './dist/sample-lit-test.js',
   output: {
-    file: 'sample-lit-test.bundled.js',
+    file: './dist/sample-lit-test.bundled.js',
     format: 'esm',
   },
   onwarn(warning) {
